@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import './CaseStudy.styles.scss';
 
 const CaseStudyBTN = ({ projectTitle, projectSubtitle, projectSlug, projectImage }) => (
-    <Link to="/" className="case-study-button">
+    <Link to={projectSlug} className="case-study-button">
         <div className="case-study-content">
             <h4>
                 UX Case Study
