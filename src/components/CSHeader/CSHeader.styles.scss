@@ -1,0 +1,19 @@
+@import '../../Common.styles.scss';
+
+.cs-header {
+    width: 100vw;
+    height: 600px;
+    background: #eeeeee;
+    padding: 40px;
+    position: relative;
+
+    .cs-header-content {
+        position: absolute;
+        bottom: 40px;
+        left: 60px;
+
+        h1, p {
+            max-width: 700px;
+        }
+    }
+}

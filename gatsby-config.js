@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.eoinfeely.com",
     title: "Eoin Feely",
   },
   plugins: [
@@ -40,5 +40,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "caseStudies",
+        path: `${__dirname}/src/markdown-pages/case-studies`,
+      },
+      __key: "caseStudies",
+    },
+    `gatsby-transformer-remark`,
   ],
 };

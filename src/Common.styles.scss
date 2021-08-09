@@ -1,0 +1,139 @@
+$darkGreen: #1D5C0A;
+$lightGreen: #53C630;
+$grey: #404040;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #F2FFF8;
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 300;
+    color: $darkGreen;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: $darkGreen;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+p {
+
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+    font-weight: 400;
+
+    &.green {
+        color: $darkGreen;
+    }
+
+    &.mb-10 {
+        margin-bottom: 10px;
+    }
+
+    &.med {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    &.large {
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+    &.upper {
+        text-transform: uppercase;
+    }
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.cta {
+    padding: 10px 13px;
+    border: 1px solid $lightGreen;
+    color: $lightGreen;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background: $lightGreen;
+        color: #ffffff;
+        box-shadow: 0 0 10px 0 rgba(29,92,10,0.25);
+    }
+    
+    &.filled {
+        background: $lightGreen;
+        color: #ffffff;
+
+        &:hover {
+            background: transparent;
+            color: $lightGreen;
+        }
+    }
+}
+
+.links-container {
+    margin-top: 5px;
+    
+    .cta {
+        margin-right: 20px;
+    }
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.page {
+    padding: 220px 60px 40px;
+    width: 100vw;
+    max-width: 1040px;
+}
+
+.page-border {
+    position: fixed;
+    height: 100vw;
+    width: 15px;
+    background: $darkGreen;
+    left: 0;
+    top: 0;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.uppercase {
+    text-decoration: uppercase;
+}

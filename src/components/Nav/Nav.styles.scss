@@ -1,0 +1,39 @@
+@import '../../Common.styles.scss';
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 100000;
+
+    a{
+        color: $darkGreen;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+        display: block;
+        letter-spacing: 6px;
+
+        &:hover {
+            color: $lightGreen;
+        }
+
+        &.name {
+            font-size: 28px;
+            letter-spacing: 5px;
+        }
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        width: 650px;
+    }
+}

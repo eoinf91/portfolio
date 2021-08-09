@@ -1,0 +1,43 @@
+@import '../../Common.styles.scss';
+
+.case-study-button {
+    padding: 20px 40px;
+    border-right: 15px solid $darkGreen;
+    box-shadow: 0 0 10px 0 rgba(29,92,10,0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffffaa;
+    transition: all 1s ease;
+    height: 390px;
+    position: relative;
+    margin: 0 0 20px;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: $lightGreen;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .case-study-content {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .case-study-feature {
+        width: calc(100% / 2 - 10px);
+
+        .background {
+            width: 90%;
+            height: 200px;
+            background: $grey;
+            margin: 0 0 0 auto;
+        }
+    }
+}

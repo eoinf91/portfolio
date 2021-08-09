@@ -1,0 +1,108 @@
+@import '../../Common.styles.scss';
+
+.cs-body {
+    width: 100vw;
+    margin: 0 auto;
+    background: #fff;
+
+    .cs-body-content {
+        padding: 40px 0;
+        max-width: 1080px;
+        margin: 0 auto;
+
+        &:nth-of-type(even) {
+            background: #eee;
+            max-width: 100vw;
+
+            .content,
+            .section {
+                max-width: 1080px;
+                margin: 0 auto;
+            }
+
+            .section {
+                margin: 40px auto;
+            }
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            background: $grey;
+        }
+
+        .two-col {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .col {
+                width: calc(50% - 20px);
+
+                &.image {
+                    margin-bottom: 40px;
+                }
+
+                &.ui-colours {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    flex-direction: row-reverse;
+
+                    .colour-block {
+                        width: 80px;
+                        margin-bottom: 10px;
+                        text-align: center;
+
+                        .colour {
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+
+            .col-small {
+                width: calc(33% - 20px);
+            }
+
+            .col-large {
+                width: calc(66% - 20px);
+            }
+        }
+
+        .three-col {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .col {
+                width: calc( 33% - 25px );
+
+                &.image {
+                    margin-bottom: 40px;
+                    background: transparent;
+                }
+
+                &.ui-colours {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .colour-block {
+                        width: 80px;
+                        margin-bottom: 10px;
+                        text-align: center;
+
+                        .colour {
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
