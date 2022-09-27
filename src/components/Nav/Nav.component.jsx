@@ -13,8 +13,8 @@ const Nav = () => (
             <Link to="/">
                 My work
             </Link>
-            <Link to="https://drive.google.com/file/d/1z2QzmGq1_9Sb_QSpvxXK-JZa7RgNiFqy/view?usp=sharing" target="_blank">
-                My resume
+            <Link to="https://www.linkedin.com/in/eoinbfeely/" target="_blank">
+                LinkedIn
             </Link>
             {/* <Link to="/">
                 About
