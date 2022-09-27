@@ -10,7 +10,7 @@ const Status = () => (
                 Current position
             </h3>
             <p class="uppercase">
-                Web Designer, HOGART WW (On-site @ FACEBOOK)
+                UI/UX Designer, Viveo Health
             </p>
         </div>
         <div class="location">
@@ -18,7 +18,7 @@ const Status = () => (
                 Location
             </h3>
             <p class="uppercase">
-                Dublin, Ireland
+                Tallinn, Estonia
             </p>
         </div>
     </div>
